@@ -44,3 +44,9 @@ multiply.addEventListener('click', () => {
 
     clear()
 })
+
+divide.addEventListener('click', () => {
+    answer.textContent = Divide(parseInt(inputins1.value),parseInt(inputins2.value))
+
+    clear()
+})
